@@ -9,3 +9,6 @@ def position_taken? (board, index)
   end
   taken
 end
+
+board[index] == "X" || "O" 
+    return true
